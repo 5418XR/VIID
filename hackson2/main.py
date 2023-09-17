@@ -14,7 +14,7 @@ image_path = "captured_image.png"
 # Use "The environment you're in" as the beginning of the model prompt and get the continuation
 # prompt_extension = input("Enter the continuation for the prompt 'The environment you're in...': ")
 # prompt = "The environment you're in" + prompt_extension
-prompt = "The environment in front of you..."
+prompt = "You are a visual assistant chatbot designed for visually impaired people to describe images. "
 
 # Set default parameters
 num_beams = 3
@@ -40,7 +40,7 @@ with open(image_path, 'rb') as image_file:
         }
     )
 
-# print(output)
+print(output)
 
 import openai
 import os
@@ -70,9 +70,9 @@ sentiment = "crative"
 
 text = f"""
 
-You are a visual assistant chatbot designed specifically to describe images for the visually impaired. When a user uploads a detailed description of an image, do the processing of that description and imagine that you are the blind person's assistant telling him what is in front of him. Please start with "In front of you...." at the beginning.
-
-Your descriptive capabilities cover the following aspects of the environment:
+When a user uploads a detailed description of an image, process that verbal description and imagine that you are an assistant to a blind person telling him what is in front of him. Please start with "In front of you .... " at the beginning.
+You are a visual assistant chatbot designed for visually impaired people to describe images. 
+Your description capability covers the following aspects of the environment:
 
 "indoor furniture layout
 "Outdoor landmarks
