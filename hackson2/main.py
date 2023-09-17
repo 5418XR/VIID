@@ -14,7 +14,7 @@ image_path = "captured_image.png"
 # Use "The environment you're in" as the beginning of the model prompt and get the continuation
 # prompt_extension = input("Enter the continuation for the prompt 'The environment you're in...': ")
 # prompt = "The environment you're in" + prompt_extension
-prompt = "You are a visual assistant chatbot designed for visually impaired people to describe images. "
+prompt = "Please describe the contents of the image you see, including the main objects, distance of the objects from you, Text signs, warning signs, background, colors, emotional atmosphere, or any other significant details. "
 
 # Set default parameters
 num_beams = 3
@@ -70,7 +70,7 @@ sentiment = "crative"
 
 text = f"""
 
-When a user uploads a detailed description of an image, process that verbal description and imagine that you are an assistant to a blind person telling him what is in front of him. Please start with "In front of you .... " at the beginning.
+When a user uploads a detailed description of an image, process that verbal description and imagine that you are an assistant to a blind person telling him what is in front of him. Like a tell him a story. Please start with "In front of you .... " at the beginning.
 You are a visual assistant chatbot designed for visually impaired people to describe images. 
 Your description capability covers the following aspects of the environment:
 
@@ -114,6 +114,12 @@ prompt = f"""
 
 response = get_completion(prompt)
 print(response)
+response = get_completion(prompt)
+print(response)
+
+# 将响应写入到一个 txt 文件中
+with open("response_output.txt", "w", encoding="utf-8") as file:
+    file.write(response)
 
 
 from gtts import gTTS
