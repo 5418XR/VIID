@@ -7,7 +7,6 @@
 
 VIID leverages the power of cutting-edge AI models, like miniGPT4 and GPT4, combined with image recognition and text-to-speech technologies, to offer the visually impaired a unique opportunity to "hear" the visual world around them.
 
-![Project Architecture Diagram](link_to_your_diagram_image)
 
 ## Features
 
