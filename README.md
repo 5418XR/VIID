@@ -1,4 +1,4 @@
-# ABC
+# VIID
 # Visually Impaired Image Describer (VIID)
 ![ABC](https://github.com/5418XR/ABC/assets/72371666/1cce9d2c-5b21-4f2d-9678-942a4f409131)
 **Empowering the visually impaired with AI-powered image descriptions transformed into audible experiences.**
@@ -22,14 +22,14 @@ VIID leverages the power of cutting-edge AI models, like miniGPT4 and GPT4, comb
 git clone https://github.com/your_username/VIID.git
 
 # Navigate to the directory
-cd VIID
+cd hackson2
 
 # Install required packages (consider using a virtual environment)
 pip install -r requirements.txt
 
 # Run the application
 python app.py
-
+```
 ## Usage
 
 1. Capture or upload an image.
