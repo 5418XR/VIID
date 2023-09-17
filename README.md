@@ -1,5 +1,6 @@
 # VIID
 # Visually Impaired Image Describer (VIID)
+[![Watch the video](https://img.youtube.com/vi/jIUM1gAFtIQ/0.jpg)](https://youtu.be/jIUM1gAFtIQ)
 ![ABC](https://github.com/5418XR/ABC/assets/72371666/1cce9d2c-5b21-4f2d-9678-942a4f409131)
 **Empowering the visually impaired with AI-powered image descriptions transformed into audible experiences.**
 
