@@ -27,9 +27,8 @@ cd VIID
 # Install required packages (consider using a virtual environment)
 pip install -r requirements.txt
 
-# Run the application (example command, adjust as needed)
-python main.py
-```
+# Run the application
+python app.py
 
 ## Usage
 
@@ -43,14 +42,14 @@ python main.py
 - Iterative development and the value of continuous user feedback.
 - The importance of a user-centric approach.
 - Addressing technical challenges related to real-time processing and compatibility.
-... [Continue based on the earlier list]
+
 
 ## Next Steps
 
 - Initiate a broader user trial phase for feedback.
 - Enhance voice output quality and options.
 - Expand multilingual and dialect support.
-... [Continue based on the earlier list]
+- 
 
 ## Contributing
 
