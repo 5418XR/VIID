@@ -49,7 +49,7 @@ python app.py
 - Initiate a broader user trial phase for feedback.
 - Enhance voice output quality and options.
 - Expand multilingual and dialect support.
-- 
+
 
 ## Contributing
 
