@@ -1,7 +1,6 @@
 # VIID
 # Visually Impaired Image Describer (VIID)
 [![Watch the video](https://img.youtube.com/vi/jIUM1gAFtIQ/0.jpg)](https://youtu.be/jIUM1gAFtIQ)
-![00053-1352516137](https://github.com/5418XR/VIID/assets/72371666/6dce6ddb-9517-4221-9e33-3a48141153b7)
 ![ABC](https://github.com/5418XR/ABC/assets/72371666/1cce9d2c-5b21-4f2d-9678-942a4f409131)
 **Empowering the visually impaired with AI-powered image descriptions transformed into audible experiences.**
 
@@ -60,3 +59,6 @@ Feel free to fork the project, submit pull requests, or create issues. We apprec
 ## License
 
 MIT License. See [LICENSE](LICENSE) for more information.
+
+#Devpost QR code
+![00053-1352516137](https://github.com/5418XR/VIID/assets/72371666/6dce6ddb-9517-4221-9e33-3a48141153b7)
